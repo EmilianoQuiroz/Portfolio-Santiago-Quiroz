@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Santiago Quiroz</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Portafolios y curriculum vitae Santiago Quiroz">
+	<meta name="keywords" content="portafolios, CV, proyectos, web developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Estilos -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Estilos Css-->
+	<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header -->
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 col-md-3 order-2 order-sm-1">
+					<div class="header__social">
+						<a href="https://www.linkedin.com/in/santiago-quiroz-dev"><i class="fa fa-linkedin"></i></a>
+						<a href="https://www.linkedin.com/in/santiago-quiroz-dev"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/santiago-quiroz-dev"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
+					<a href="./index.html" class="site-logo">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
+					<div class="header__switches">
+						<a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
+						<!--<a href="#"><i class="fa fa-shopping-cart"></i></a>-->
+					</div>
+				</div>
+			</div>
+			<nav class="main__menu">
+				<ul class="nav__menu">
+					<li><a href="./index.html">Inicio</a></li>
+					<li><a href="./about.html">Nosotros</a></li>
+					<li><a href="./gallery.html">Galeria</a></li>
+					<li><a href="./blog.html" class="menu--active">Proyectos</a>
+						<ul class="sub__menu">
+							<li><a href="./blog-single.html">Mi Blog</a></li>
+						</ul>
+					</li>
+					<li><a href="./contact.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Header -->
+
+	<!-- Seccion de proyectos -->
+	<section class="blog__page">
+		<div class="blog__warp">
+			<div class="row blog__grid text-white">
+				<div class="col-lg-8 col-xl-9">
+					<div class="row">
+						<div class="col-md-8 col-lg-7 col-xl-8">
+							<div class="blog__item set-bg" data-setbg="img/blog/1.jpg">
+								<div class="blog__content">
+									<div class="blog__date">SEP 1, 2021</div>
+									<h3><a href="./blog-single.html">El roadmap del desarrollo web con JavaScript</a></h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-5 col-xl-4">
+							<div class="blog__item set-bg" data-setbg="img/blog/2.jpg">
+								<div class="blog__content">
+									<div class="blog__date">NOV 15, 2021</div>
+									<h4><a href="./blog-single.html">"El Blog de Linux", todo lo que necesitas para tener exito en Linux</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-5 col-xl-4">
+							<div class="blog__item set-bg" data-setbg="img/blog/4.jpg">
+								<div class="blog__content">
+									<div class="blog__date">FEB 1, 2022</div>
+									<h4><a href="./blog-single.html">"Mis apuntes de Kotlin", guia para el desarrollador Android</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8 col-lg-7 col-xl-8">
+							<div class="blog__item set-bg" data-setbg="img/blog/5.jpg">
+								<div class="blog__content">
+									<div class="blog__date">MAY 01, 2022</div>
+									<h3><a href="./blog-single.html">"Kepler Tattoo Studio", portfolio para estudio de arte corporal</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-xl-3">
+					<div class="blog__item blog__item--long set-bg" data-setbg="img/blog/3.jpg">
+						<div class="blog__content">
+							<div class="blog__date">ACESORIAS</div>
+							<h4><a href="./blog-single.html">Acesorias de programación a empresas y estudiantes de informática </a></h4>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer__section">
+		<div class="container">
+			<div class="footer__copyright__text">
+				<p>Copyright &copy;Todos los derechos reservados | Pagina desarrollada por <i class="fa fa-heart" aria-hidden="true"></i> <a href="https://github.com/EmilianoQuiroz" target="_blank">Santiago Quiroz</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- Lupita -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>

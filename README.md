@@ -9,7 +9,7 @@ convertirme en programador, sino tambien para mostrar mis proyectos, tanto profe
   + Inicio:
   + Sobre Mi:
   + Proyectos:
-    -Mi Blog:
+    - Mi Blog:
   + Contacto:
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,14 +1,10 @@
 /* =================================
 ------------------------------------
-  Boto | Photography HTML Template
+  Portafolio Santiago Quiroz
   Version: 1.0
-  Copyright By: ColorLib
+  Copyright By: Santiago Quiroz
  ------------------------------------
  ====================================*/
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
@@ -92,7 +88,7 @@ ol {
 	}
 }
 
-/* Preloder */
+/* Precarga */
 
 #preloder {
 	position: fixed;
@@ -205,7 +201,7 @@ ol {
 }
 
 /*---------------------
-  Commom elements
+  Elementos
 -----------------------*/
 
 .site-btn {
@@ -323,7 +319,7 @@ ol {
 }
 
 /*---------------------
-   Header section
+   Header
  -----------------------*/
 
 .header {
@@ -621,7 +617,7 @@ ol {
 }
 
 /*---------------------
-   Footer section
+   Footer
  -----------------------*/
 
 .footer__copyright__text {
@@ -647,7 +643,7 @@ ol {
 }
 
 /*------------------
-   About page
+   About me
  ------------------*/
 
 .about__page {
@@ -752,7 +748,7 @@ ol {
 }
 
 /*-------------------
-   Gallery Page
+   Galleria
  -------------------*/
 
 .gallery__page {
@@ -800,7 +796,7 @@ ol {
 }
 
 /*----------------
-   Blog Page
+   Proyectos
  ----------------*/
 
 .blog__page {
@@ -872,7 +868,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 /*-------------------
-   Blog Single Page
+   Mi Blog
  --------------------*/
 
 .blog__slider {
@@ -1123,7 +1119,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 /*----------------
-   Contact Page
+   Contacto
  ----------------*/
 
 .contact__warp {

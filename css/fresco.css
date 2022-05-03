@@ -16,7 +16,7 @@
   left: 0;
   font: 13px/20px "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana,
     Arial, sans-serif;
-  /* Chrome hack, this fixes a visual glitch when quickly toggling a video */
+  
   transform: translateZ(0px);
 }
 
@@ -54,17 +54,13 @@
   filter: alpha(opacity=100);
 }
 
-/* mobile touch has position:absolute to allow zooming */
+/* mobile touch  */
 .fr-window.fr-mobile-touch,
 .fr-overlay.fr-mobile-touch {
   position: absolute;
   overflow: visible;
 }
 
-/* some properties on the window are used to toggle things
- * like margin and the fullclick mode,
- * we reset those properties after measuring them
- */
 .fr-measured {
   margin: 0 !important;
   min-width: 0 !important;
@@ -114,7 +110,6 @@
 
 /*
    padding:
-   youtube & vimeo always have buttons on the outside
    side button = 72 = 54 + (2 * 9 margin)
    close button = 48
 */
@@ -200,8 +195,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* IE11 has a 1px blur bug on the edges of the caption (ui:inside)
-     during animation with overflow:hidden */
   overflow: visible;
 }
 
@@ -685,7 +678,7 @@
   position: relative;
   float: left;
 }
-/* this element is there as an alternative to putting the loading image on the background */
+/* Alternativa a la imagen de carga de fondo */
 .fr-thumbnail-loading-icon {
   display: none;
 }
